@@ -1,0 +1,102 @@
+/* Write CSS here */
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+  .heading {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+  .image {
+    height: 30px;
+    width: 30px;
+  }
+  .timer-card-container {
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+  }
+  .timer-name {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+  color: #333333;
+}
+
+.timer-card-container {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px;
+  border-width: 2px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border-color: black;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #888888;
+  margin: 40px;
+}
+
+.timer-name {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #333333;
+  margin-left: 20px;
+}
+
+.timer-image-container {
+  display: flex;
+}
+
+.image {
+  height: 24px;
+  width: 24px;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.timer-minutes-hours {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #333333;
+  font-weight: bold;
+}
+
+.button {
+  height: 20px;
+  width: 40px;
+  color: white;
+  font-size: 8px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  margin: 4px;
+  border: none;
+}
+.green-button {
+  background-color: #1db05f;
+}
+.red-button {
+  background-color: #ef0d36;
+}
+.yellow-button {
+  background-color: #eaa800;
+}
